@@ -5,23 +5,25 @@ alert('welcome to my website' + ' '+userName );
 console.log(userName);
 
 let about1=prompt('do you think i love sports ?');
-
+about1=about1.toLowerCase();
 if (about1 === 'yes'|| about1 === 'y') {
     alert('you are correct i love every sport in the world');
     console.log(about1);
+   
 
 }else if(about1 === 'no'|| about1 === 'n' ){
     alert(' you should know i like every sport in the world');
     console.log(about1);
+    
 }
 else{
     alert('Answer with yes/y or no/n please' );
    console.log(about1);
-
+  
 }
 
 let about2=prompt('do you think that i support Realmadrid team ?');
-
+about2=about2.toLowerCase();
 if (about2 === 'yes'|| about2 === 'y') {
     alert('you are correct i\'m a big fan for realmadrid');
     console.log(about2);
@@ -37,7 +39,7 @@ else{
 
   
 let about3=prompt('do you think i love basketball same as football?');
-
+about3=about3.toLowerCase();
 if (about3 === 'yes'|| about3 === 'y') {
     alert('you are correct my favourite sports is football and basketball');
      console.log(about3);
@@ -54,7 +56,7 @@ else{
 
 
    let about4=prompt('do you think Gulf is the most boring game to me ?');
-
+   about4=about4.toLowerCase();
    if (about4 === 'yes'|| about4 === 'y') {
        alert('you are correct i didn\'t see Gulf a intersting game to watch');
        // console.log(about4);
@@ -72,7 +74,7 @@ else{
 
       
    let about5=prompt('do you think i watch other things like Movies ?');
-
+   about5=about5.toLowerCase();
    if (about5 === 'yes'|| about5 === 'y') {
        alert('of course i watch movies and series not all my life related to sports');
        // console.log(about5);
