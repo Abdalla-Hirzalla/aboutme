@@ -28,24 +28,24 @@ else{
 }
 about1()
 
-// function about2() {
+function about2() {
     
-// let about2=prompt('do you think that i support Realmadrid team ?');
-// about2=about2.toLowerCase();
-// if (about2 === 'yes'|| about2 === 'y') {
-//     alert('you are correct i\'m a big fan for realmadrid');
-//     console.log(about2);
-//     counter++;
+let about2=prompt('do you think that i support Realmadrid team ?');
+about2=about2.toLowerCase();
+if (about2 === 'yes'|| about2 === 'y') {
+    alert('you are correct i\'m a big fan for realmadrid');
+    console.log(about2);
+    counter++;
 
-// }else if(about2 === 'no'|| about2 === 'n' ){
-//     alert(' you must know my best team is realmadrid in football world');
-//     console.log(about2);
-// }
-// else{
-//     alert('Answer with yes/y or no/n please' );
-//    console.log(about2);}
-// }
-// about2()
+}else if(about2 === 'no'|| about2 === 'n' ){
+    alert(' you must know my best team is realmadrid in football world');
+    console.log(about2);
+}
+else{
+    alert('Answer with yes/y or no/n please' );
+   console.log(about2);}
+}
+about2()
 
 // function about3() {
 // let about3=prompt('do you think i love basketball same as football?');
