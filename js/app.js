@@ -142,42 +142,42 @@ alert('the correct answer is 7')
 }
 }about6() 
 
-// function about7() {
-// let traditional=['maqloba','mansaf','kabsa','dwali'];
-// let about7=prompt('What do you think my best traditional food ?'); 
-// let flag = false;
-// about7=about7.toLowerCase();
+function about7() {
+let traditional=['maqloba','mansaf','kabsa','dwali'];
+let about7=prompt('What do you think my best traditional food ?'); 
+let flag = false;
+about7=about7.toLowerCase();
 
 
-// for(let i = 0; i<=5; i++){
+for(let i = 0; i<=5; i++){
 
-//    for(let x=0; x < traditional.length; x++){
-//       if (about7===traditional[x]){
-//        alert('you are correct i love these traditional food');
-//        flag=true;
-//        console.log(about7);
-//        counter++;
-//      break;}
+   for(let x=0; x < traditional.length; x++){
+      if (about7===traditional[x]){
+       alert('you are correct i love these traditional food');
+       flag=true;
+       console.log(about7);
+       counter++;
+     break;}
      
      
-//     }
-//     if(flag===true){
-//         break;
-//     }else{
-//        alert('not correct');
-//        about7= prompt('try again ?' )
-//        console.log(about7);
-//     }
+    }
+    if(flag===true){
+        break;
+    }else{
+       alert('not correct');
+       about7= prompt('try again ?' )
+       console.log(about7);
+    }
 
-// if (i===4) {
-//     alert('you Are out of attempts');
-//     alert('The correct answer is' +' '+ traditional);
-//     console.log(about7);
-// break;
-// }
+if (i===4) {
+    alert('you Are out of attempts');
+    alert('The correct answer is' +' '+ traditional);
+    console.log(about7);
+break;
+}
 
-// }
-// }about7()
+}
+}about7()
 
 alert('your total score of 7 quastion is'+' ' +counter);
 
