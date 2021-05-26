@@ -1,28 +1,35 @@
 'use strict'
-// let counter=0
+let counter=0
 
-// let userName=prompt('what\s your name ?');
-// alert('welcome to my website' + ' '+userName );
-// console.log(userName);
+let userName=prompt('what\s your name ?');
+alert('welcome to my website' + ' '+userName );
+console.log(userName);
 
-// let about1=prompt('do you think i love sports ?');
-// about1=about1.toLowerCase();
-// if (about1 === 'yes'|| about1 === 'y') {
-//     alert('you are correct i love every sport in the world');
-//     console.log(about1);
-//     counter++;
-   
-// }else if(about1 === 'no'|| about1 === 'n' ){
-//     alert(' you should know i like every sport in the world');
-//     console.log(about1);
+function about1() {
     
-// }
-// else{
-//     alert('Answer with yes/y or no/n please' );
-//    console.log(about1);
-  
-// }
 
+let about1=prompt('do you think i love sports ?');
+about1=about1.toLowerCase();
+if (about1 === 'yes'|| about1 === 'y') {
+    alert('you are correct i love every sport in the world');
+    console.log(about1);
+    counter++;
+   
+}else if(about1 === 'no'|| about1 === 'n' ){
+    alert(' you should know i like every sport in the world');
+    console.log(about1);
+    
+}
+else{
+    alert('Answer with yes/y or no/n please' );
+   console.log(about1);
+  
+}
+}
+about1()
+
+// function about2() {
+    
 // let about2=prompt('do you think that i support Realmadrid team ?');
 // about2=about2.toLowerCase();
 // if (about2 === 'yes'|| about2 === 'y') {
@@ -37,9 +44,10 @@
 // else{
 //     alert('Answer with yes/y or no/n please' );
 //    console.log(about2);}
+// }
+// about2()
 
-
-  
+// function about3() {
 // let about3=prompt('do you think i love basketball same as football?');
 // about3=about3.toLowerCase();
 // if (about3 === 'yes'|| about3 === 'y') {
@@ -54,9 +62,9 @@
 //     alert('Answer with yes/y or no/n please' );
 //     console.log(about3);
 // }
+// }about3()
 
-
-
+// function about4() {
 //    let about4=prompt('do you think Gulf is the most boring game to me ?');
 //    about4=about4.toLowerCase();
 //    if (about4 === 'yes'|| about4 === 'y') {
@@ -72,10 +80,10 @@
 //        alert('Answer with yes/y or no/n please' );
 //       console.log(about4);
 //     }
-    
+// }about4()
 
 
-      
+// function about5() {
 //    let about5=prompt('do you think i watch other things like Movies ?');
 //    about5=about5.toLowerCase();
 //    if (about5 === 'yes'|| about5 === 'y') {
@@ -93,9 +101,9 @@
 //     }
     
 //       alert('Thank you for visiting our website and answer the qustions' + ' '+userName );
+// }about5()
 
-
-
+// function about6(){
 // let about6=Number(prompt('Choose a number between 1 to 10 ?' ));
 
 
@@ -132,9 +140,9 @@
 
 
 // }
+// }about6() 
 
-
-
+// function about7() {
 // let traditional=['maqloba','mansaf','kabsa','dwali'];
 // let about7=prompt('What do you think my best traditional food ?'); 
 // let flag = false;
@@ -169,7 +177,7 @@
 // }
 
 // }
+// }about7()
 
-
-// alert('your total score of 7 quastion is'+' ' +counter);
+alert('your total score of 7 quastion is'+' ' +counter);
 
