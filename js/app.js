@@ -47,22 +47,22 @@ else{
 }
 about2()
 
-// function about3() {
-// let about3=prompt('do you think i love basketball same as football?');
-// about3=about3.toLowerCase();
-// if (about3 === 'yes'|| about3 === 'y') {
-//     alert('you are correct my favourite sports is football and basketball');
-//     console.log(about3);
-//     counter++;
-// }else if(about3 === 'no'|| about3 === 'n' ){
-//     alert('my favourite sports and always watch basketball and football and i love them both');
-//      console.log(about3);
-// }
-// else{
-//     alert('Answer with yes/y or no/n please' );
-//     console.log(about3);
-// }
-// }about3()
+function about3() {
+let about3=prompt('do you think i love basketball same as football?');
+about3=about3.toLowerCase();
+if (about3 === 'yes'|| about3 === 'y') {
+    alert('you are correct my favourite sports is football and basketball');
+    console.log(about3);
+    counter++;
+}else if(about3 === 'no'|| about3 === 'n' ){
+    alert('my favourite sports and always watch basketball and football and i love them both');
+     console.log(about3);
+}
+else{
+    alert('Answer with yes/y or no/n please' );
+    console.log(about3);
+}
+}about3()
 
 // function about4() {
 //    let about4=prompt('do you think Gulf is the most boring game to me ?');
