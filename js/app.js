@@ -64,23 +64,23 @@ else{
 }
 }about3()
 
-// function about4() {
-//    let about4=prompt('do you think Gulf is the most boring game to me ?');
-//    about4=about4.toLowerCase();
-//    if (about4 === 'yes'|| about4 === 'y') {
-//        alert('you are correct i didn\'t see Gulf a intersting game to watch');
-//        console.log(about4);
-//        counter++;
+function about4() {
+   let about4=prompt('do you think Gulf is the most boring game to me ?');
+   about4=about4.toLowerCase();
+   if (about4 === 'yes'|| about4 === 'y') {
+       alert('you are correct i didn\'t see Gulf a intersting game to watch');
+       console.log(about4);
+       counter++;
    
-//    }else if(about4 === 'no'|| about4 === 'n' ){
-//        alert(' you must know the most game i Hated is Gulf');
-//         console.log(about4);
-//    }
-//    else{
-//        alert('Answer with yes/y or no/n please' );
-//       console.log(about4);
-//     }
-// }about4()
+   }else if(about4 === 'no'|| about4 === 'n' ){
+       alert(' you must know the most game i Hated is Gulf');
+        console.log(about4);
+   }
+   else{
+       alert('Answer with yes/y or no/n please' );
+      console.log(about4);
+    }
+}about4()
 
 
 // function about5() {
