@@ -1,4 +1,5 @@
 # aboutme
 
-Abdallah was Navigator on:
-Bashar was Driver on: https://github.com/Abdalla-Hirzalla/aboutme/pull/1
+bashar was driver: https://github.com/Abdalla-Hirzalla/aboutme/blob/main/js/app.js
+
+Abdallah was navigater: https://github.com/Abdalla-Hirzalla/aboutme/blob/main/js/app.js
