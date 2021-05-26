@@ -103,44 +103,44 @@ function about5() {
       alert('Thank you for visiting our website and answer the qustions' + ' '+userName );
 }about5()
 
-// function about6(){
-// let about6=Number(prompt('Choose a number between 1 to 10 ?' ));
+function about6(){
+let about6=Number(prompt('Choose a number between 1 to 10 ?' ));
 
 
-// for (let i = 1; i <= 4;i++){
-// if (about6 === 7) {
-//     alert('you are correct');
-//     console.log(about6);
-//     counter++
+for (let i = 1; i <= 4;i++){
+if (about6 === 7) {
+    alert('you are correct');
+    console.log(about6);
+    counter++
     
 
-//     break;
+    break;
 
 
-// } else if (about6 >7 && about6 <= 10){
-//     about6=Number(prompt('too High ?' ));
-//     console.log(about6);
+} else if (about6 >7 && about6 <= 10){
+    about6=Number(prompt('too High ?' ));
+    console.log(about6);
 
-// } else if (about6 >=1 && about6 < 7 ){
-// about6=Number(prompt('too low?' ));
-// console.log(about6);
+} else if (about6 >=1 && about6 < 7 ){
+about6=Number(prompt('too low?' ));
+console.log(about6);
 
-// } else if (about6 < 1 && about6 > 10){
-//     about6=Number(prompt('please select between 1 to 10 only'));
-//     console.log(about6)
+} else if (about6 < 1 && about6 > 10){
+    about6=Number(prompt('please select between 1 to 10 only'));
+    console.log(about6)
    
-//   }
+  }
   
 
-// if (i===3){
-// alert('you are out of attempts');
-// alert('the correct answer is 7')
-//     break;
-// }
+if (i===3){
+alert('you are out of attempts');
+alert('the correct answer is 7')
+    break;
+}
 
 
-// }
-// }about6() 
+}
+}about6() 
 
 // function about7() {
 // let traditional=['maqloba','mansaf','kabsa','dwali'];
