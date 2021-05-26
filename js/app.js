@@ -83,25 +83,25 @@ function about4() {
 }about4()
 
 
-// function about5() {
-//    let about5=prompt('do you think i watch other things like Movies ?');
-//    about5=about5.toLowerCase();
-//    if (about5 === 'yes'|| about5 === 'y') {
-//        alert('of course i watch movies and series not all my life related to sports');
-//        console.log(about5);
-//        counter++;
+function about5() {
+   let about5=prompt('do you think i watch other things like Movies ?');
+   about5=about5.toLowerCase();
+   if (about5 === 'yes'|| about5 === 'y') {
+       alert('of course i watch movies and series not all my life related to sports');
+       console.log(about5);
+       counter++;
 
-//    }else if(about5 === 'no'|| about5 === 'n' ){
-//        alert('No one in his life can only watching one thing like sport so i watch beside sport. Movies and other things');
-//         console.log(about5);
-//    }
-//    else{
-//        alert('Answer with yes/y or no/n please' );
-//         console.log(about5);
-//     }
+   }else if(about5 === 'no'|| about5 === 'n' ){
+       alert('No one in his life can only watching one thing like sport so i watch beside sport. Movies and other things');
+        console.log(about5);
+   }
+   else{
+       alert('Answer with yes/y or no/n please' );
+        console.log(about5);
+    }
     
-//       alert('Thank you for visiting our website and answer the qustions' + ' '+userName );
-// }about5()
+      alert('Thank you for visiting our website and answer the qustions' + ' '+userName );
+}about5()
 
 // function about6(){
 // let about6=Number(prompt('Choose a number between 1 to 10 ?' ));
