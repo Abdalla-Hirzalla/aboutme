@@ -1,6 +1,55 @@
-#o{
-    list-style-type: decimal;
-} 
- #u{
-	list-style-type: square;
+body{
+    background-color: tomato;
+   
+}
+
+
+h1{
+    text-align: center;
+    background-color: #064420;
+   
+    font-size: 500%;
+    color: #ffc947;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#list1 {
+    margin-right: 0%;
+    float:initial;
+    background-color: #064420;
+    color: tomato;
+    text-align: center;
+  
+    
+    
+    }
+
+    #list2{
+        margin-right: 0%;
+       color: #ffc947;
+        text-align: center;
+
+      
+
+    }
+
+    #list3{
+        margin-top: 15%;
+        color:#ffc947 ;
+        font-size: 120%;
+        list-style:lower-roman;
+    }
+
+p{
+    font-size: 170%;
+    color: yellowgreen;
+    margin-right: 5%;
+    background-color: #064420;
+    text-align: center;
+}
+
+#f{
+    text-align: center;
+    font-size: 80%;
 }
